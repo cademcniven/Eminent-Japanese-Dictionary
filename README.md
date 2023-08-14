@@ -1,4 +1,4 @@
-# $${\color{lightgreen}J \color{white}pdic \space is \space a \space \color{lightgreen}P\color{white}erformant \space \color{lightgreen}DIC\color{white}tionary}$$
+# $${\color{lightgreen}J \color{white}pdic \space is \space a \space \color{lightgreen}P\color{white}erformant \space Japanese \space \color{lightgreen}DIC\color{white}tionary \space format}$$
 
 ## WIP DOESNT DO MUCH RN
 
