@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 flatbuffers = "23.5.0"
+quick-xml = "0.30.0"
