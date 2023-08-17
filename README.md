@@ -1,5 +1,5 @@
-# <p align="center">JPDIC</p>
-$${\color{lightgreen}J \color{white}pdic \space is \space a \space \color{lightgreen}P\color{white}erformant \space Japanese \space \color{lightgreen}DIC\color{white}tionary \space format}$$
+# <p align="center">EJDIC</p>
+$${\color{lightgreen}E\color{white}minent \space \color{lightgreen}J\color{white}apanese \space \color{lightgreen}DIC\color{white}tionary \space format}$$
 
 ## WIP DOESNT DO MUCH RN
 
