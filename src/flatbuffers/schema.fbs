@@ -1,27 +1,26 @@
-//TODO: reduce this list so it fits in a byte
-enum Tag:byte {
+enum Tag:uint16 {
     abbr = 0, //Abbreviation
+    adjective, //Adjective of any type
     adj, //Adjective
     adj-f, //Noun or verb acting prenominally
-    adj-i, //I-adjective (keiyoushi)
     adj-ix, //I-Adjective (keiyoushi) - yoi/ii class
+    adj-i, //I-adjective (keiyoushi)
     adj-kari, //'kari' adjective (archaic)
     adj-ku, //'ku' adjective (archaic)
-    adj-na, //Na-adjective (keiyodoshi)
     adj-nari, //Archaic/formal form of na-adjective
+    adj-na, //Na-adjective (keiyodoshi)
     adj-no, //Noun which may take the genitive case particle 'no'
     adj-pn, //Pre-noun adjectival (rentaishi)
     adj-shiku, //'shiku' adjective (archaic)
     adj-t, //'taru' adjective
-    adjective, //Adjective of any type
     adv, //Adverb (fukushi)
     adv-to, //Adverb taking the 'to' particle
     agric, //Agriculture
     anat, //Anatomy
     ant, //Antonym
-    arch, //Archaism
     archeol, //Archeology
     archit, //Architecture
+    arch, //Archaism
     art, //Art, aesthetics
     astron, //Astronomy
     ateji, //Ateji (phonetic) reading
@@ -43,8 +42,8 @@ enum Tag:byte {
     Christn, //Christianity
     cloth, //Clothing
     col, //Colloquialism
+    company, //Company
     comp, //Computing
-    company, //Company name
     conj, //Conjunction
     cop, //Copula
     cop-da, //Copula
@@ -58,18 +57,18 @@ enum Tag:byte {
     doc, //Document
     ecol, //Ecology
     econ, //Economics
-    elec, //Electricity, elec. eng.
     electr, //Electronics
+    elec, //Electricity, elec. eng.
     embryo, //Embryology
     engr, //Engineering
     ent, //Entomology
     equ, //Equivalent
     ev, //Event
-    ex, //Usage example
-    exp, //Expressions (phrases, clauses, etc.)
     expl, //Explanatory
+    exp, //Expressions (phrases, clauses, etc.)
+    ex, //Usage example
     fam, //Familiar language
-    fem, //Female term or language
+    fem, //Female name, term or language
     fict, //Fiction
     fig, //Figuratively
     finc, //Finance
@@ -82,9 +81,9 @@ enum Tag:byte {
     geol, //Geology
     geom, //Geometry
     gikun, //Gikun (meaning as reading) or jukujikun (special kanji reading)
-    given, //Given name or forename, gender not specified
-    go, //Go (game)
+    given, //Given name, gender not specified
     golf, //Golf
+    go, //Go (game)
     gramm, //Grammar
     grmyth, //Greek mythology
     group, //Group
@@ -97,7 +96,7 @@ enum Tag:byte {
     id, //Idiomatic expression
     ik, //Irregular kana usage
     iK, //Irregular kanji usage
-    int, //Interjection (kandoushi)
+    intj, //Interjection (kandoushi)
     io, //Irregular okurigana usage
     iv, //Irregular verb
     jlpt-n1, //JLPT N1
@@ -107,8 +106,8 @@ enum Tag:byte {
     jlpt-n5, //JLPT N5
     joc, //Jocular, humorous term
     jouyou, //Approved reading for jouyou kanji
-    kan, //On reading
     kanyou, //On reading
+    kan, //On reading
     ksb, //Kansai dialect
     ktb, //Kantou dialect
     kun, //Kun reading
@@ -118,78 +117,78 @@ enum Tag:byte {
     law, //Law
     leg, //Legend
     ling, //Linguistics
-    lit, //Literaly
     litf, //Literary or formal term
+    lit, //Literaly
     logic, //Logic
-    m-sl, //Manga slang
-    MA, //Martial arts
     mahj, //Mahjong
     male, //Male term or language
     male-sl, //Male slang
+    masc, //Male given name
     math, //Mathematics
+    MA, //Martial arts
     mech, //Mechanical engineering
     med, //Medicine
     met, //Meteorology
     mil, //Military
     music, //Music
     myth, //Mythology
-    n, //Noun
-    n-adv, //Adverbial noun (fukushitekimeishi)
-    n-pr, //Proper noun
-    n-pref, //Noun, used as a prefix
-    n-suf, //Noun, used as a suffix
-    n-t, //Noun (temporal) (jisoumeishi)
+    m-sl, //Manga slang
     nab, //Nagano dialect
     name, //Name reading (nanori)
     net-sl, //Internet slang
     num, //Numeric
+    n, //Noun
+    n-adv, //Adverbial noun (fukushitekimeishi)
+    n-pref, //Noun, used as a prefix
+    n-pr, //Proper noun
+    n-suf, //Noun, used as a suffix
+    n-t, //Noun (temporal) (jisoumeishi)
     obj, //Object
-    obs, //Obsolete term
     obsc, //Obscure term
+    obs, //Obsolete term
     oik, //Old or irregular kana form
     oK, //Out-dated kanji or kanji usage
     ok, //Out-dated or obsolete kana usage
     on, //On reading
     on-mim, //Onomatopoeic or mimetic word
-    organization, //Organization name
+    organization, //Organization
     ornith, //Ornithology
     osb, //Osaka dialect
     oth, //Other
     paleo, //Paleontology
     pathol, //Pathology
-    person, //Full name of a particular person
+    person, //Full name
     pharm, //Pharmacy
     phil, //Philosophy
     photo, //Photography
     physics, //Physics
     physiol, //Physiology
-    place, //Place name
+    place, //Place
     pn, //Pronoun
     poet, //Poetical term
     pol, //Polite (teineigo) language
     pref, //Prefix
     print, //Printing
-    product, //Product name
+    product, //Product
     proverb, //Proverb
     prt, //Particle
-    psy, //Psychiatry
     psych, //Psychology
+    psy, //Psychiatry
     quote, //Quotation
     rad, //Reading used as name of radical
     rail, //Railway
     rare, //Rare
     relig, //Religion
-    rK, //Rarely-used kanji form
     rkb, //Ryuukyuu dialect
-    see, //See also
+    rK, //Rarely-used kanji form
     sens, //Sensitive
     serv, //Service
     Shinto, //Shinto
     shogi, //Shogi
     sl, //Slang
     sports, //Sports
+    station, //Train station
     stat, //Statistics
-    station, //Railway station
     suf, //Suffix
     sumo, //Sumo
     surname, //Family or surname
@@ -203,9 +202,8 @@ enum Tag:byte {
     tsug, //Tsugaru dialect
     uk, //Usually written using kana alone
     uK, //Usually written using kanji alone
-    unc, //Unclassified
     unclass, //Unclassified name
-    v-unspec, //Verb unspecified
+    unc, //Unclassified
     v1, //Ichidan verb
     v1-s, //Ichidan verb - kureru special class
     v2a-s, //Nidan verb with u ending (archaic)
@@ -251,12 +249,13 @@ enum Tag:byte {
     v5r-i, //Godan verb with ru ending (irregular verb)
     v5s, //Godan verb with su ending
     v5t, //Godan verb with tsu ending
+    v5uru, //Godan verb - Uru old class verb (old form of Eru)
     v5u, //Godan verb with u ending
     v5u-s, //Godan verb with u ending (special class)
-    v5uru, //Godan verb - Uru old class verb (old form of Eru)
     v5z, //Godan verb with zu ending
-    vi, //Intransitive verb
+    verb, //Verb of any type
     vidg, //Video games
+    vi, //Intransitive verb
     vk, //Kuru verb - special class
     vn, //Irregular nu verb
     vr, //Irregular ru verb, plain form ends with -ri
@@ -267,12 +266,12 @@ enum Tag:byte {
     vt, //Transitive verb
     vulg, //Vulgar expression or word
     vz, //Ichidan verb - zuru verb (alternative form of -jiru verbs)
+    v-unspec, //Verb unspecified
     wasei, //Wasei, word made in Japan
     work, //Work of art, literature, music, etc. name
     X, //Rude or X-rated term
     yoji, //Yojijukugo (four character compound)
     zool, //Zoology
-    verb, //Verb of any type
 }
 
 //TODO: create default values
@@ -289,7 +288,7 @@ table Definition {
 
 table Usage {
     tags:[Tag];
-    pitches:[short]; //uint8 maybe
+    pitches:[uint8];
     definitions:[Definition];
 }
 
@@ -298,7 +297,7 @@ table Entry {
     reading:string;
     see:[string];
     alt:[string];
-    frequencies:[long]; //should be unsigned short prob
+    frequencies:[uint32];
     usages:[Usage];
 }
 

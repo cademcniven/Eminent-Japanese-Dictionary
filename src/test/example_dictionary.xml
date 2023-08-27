@@ -1,84 +1,12 @@
-<dictionary name="Test Dictionary">
-    <entry term="見える" reading="みえる">
-        <see>見る</see>
-        <frequency>260</frequency>
-        <usage>
-            <tag>v1</tag>
-            <tag>vi</tag>
-            <pitch>2</pitch>
-            <definition value="to be seen; to be visible; to be in sight​">
-                <example value="聖霊がある方の上に下って、その上にとどまられるのが見えたなら、その方こそ聖霊によってバプテスマを授ける方である。"
-                    translation="The man on whom you see the Spirit come down and remain is he who will baptize with the Holy Spirit." />
-            </definition>
-            <definition value="to look; to seem; to appear​">
-                <example value="１１ページの地図はとても奇妙に見える。逆さまにしてみると、見慣れた地図になる。"
-                    translation="The map on page 11 looks very strange. Turn it upside down. Then it becomes a familiar map to you." />
-            </definition>
-            <definition value="to come" />
-        </usage>
-    </entry>
-    <entry term="見える" reading="まみえる">
-        <frequency>260</frequency>
-        <alt>謁える</alt>
-        <usage>
-            <tag>v1</tag>
-            <tag>vi</tag>
-            <pitch>3</pitch>
-            <definition value="〘hum〙 to have an audience; to meet; to see.​" />
-            <definition value="to face (an enemy); to confront.​" />
-            <definition value="to serve (esp. as one's wife)." />
-        </usage>
-    </entry>
-    <entry term="目" reading="め">
-        <frequency>177</frequency>
-        <alt>眼</alt>
-        <usage>
-            <tag>n</tag>
-            <pitch>1</pitch>
-            <definition value="eye; eyeball​">
-                <example value="彼女はきれいな目をしている。" translation="She has beautiful eyes" />
-            </definition>
-            <definition value="eyesight; sight; vision">
-                <see>目が見える</see>
-                <example value="ヘレン・ケラーは目と耳と口が不自由だった。"
-                    translation="Helen Keller was blind, deaf and mute." />
-            </definition>
-            <definition value="look; stare; gaze; glance​">
-                <example value="彼は崇拝の眼で彼女を眺めた。"
-                    translation="He regarded her with worship in his eyes." />
-            </definition>
-            <definition
-                value="notice; attention; observation; eyes (of the world, public, etc.)​" />
-            <definition value="an experience​" />
-            <definition value="viewpoint​" />
-            <definition value="discrimination; discernment; judgement; eye (e.g. for quality)​" />
-            <definition value="(an) appearance​" />
-            <definition value="chance (of success); possibility (of a good result)​">
-                <see>目がない</see>
-            </definition>
-            <definition
-                value="spacing (between crossed strands of a net, mesh, etc.); opening; stitch; texture; weave">
-                <see>編み目</see>
-            </definition>
-            <definition value="grain (of wood)​" />
-            <definition value="eye (of a storm, needle, etc.)​" />
-            <definition value="intersection (on a go board); square (on a chessboard)​" />
-            <definition value="dot (on a dice); pip; rolled number​" />
-            <definition value="graduation; division (of a scale)​" />
-            <definition value="tooth (of a saw, comb, etc.)​" />
-        </usage>
-        <usage>
-            <tag>suf</tag>
-            <pitch>1</pitch>
-            <definition value="somewhat; -ish">
-                <see>大きめ</see>
-                <info>after adjective stem</info>
-            </definition>
-            <definition value="point (e.g. of change)">
-                <see>変わり目</see>
-                <see>折れ目</see>
-                <info>after -masu stem of verb</info>
-            </definition>
-        </usage>
+<dictionary name="Innocent Ranked" version="0.7.3">
+    <entry>
+        <form value="いじり回す"/>
+        <form value="弄り回す"/>
+        <form value="弄りまわす"/>
+        <reading value="いじりまわす"/>
+        <frequency value="46043">
+            <applies_to>弄り回す</applies_to>
+        </frequency>
+        <frequency value="28348"/>
     </entry>
 </dictionary>
